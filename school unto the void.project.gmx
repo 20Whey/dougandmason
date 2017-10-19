@@ -41,10 +41,12 @@
   <scripts name="scripts">
     <script>scripts\scr_health_2_.gml</script>
     <script>scripts\scr_move_state.gml</script>
+    <script>scripts\scr_dash_state.gml</script>
     <script>scripts\scr_health_1_.gml</script>
     <script>scripts\scr_get_input.gml</script>
     <script>scripts\scr_frozen_state.gml</script>
   </scripts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="enemy stuff">
       <object>objects\obj_basic_enemy</object>
@@ -58,6 +60,7 @@
     <objects name="player stuff">
       <object>objects\obj_cursor</object>
       <object>objects\obj_player</object>
+      <object>objects\obj_dash_effect</object>
     </objects>
   </objects>
   <rooms name="rooms">
