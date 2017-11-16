@@ -3,9 +3,30 @@
   <Configs name="configs">
     <Config>Configs\Default</Config>
   </Configs>
+  <datafiles number="1" name="datafiles">
+    <datafile>
+      <name>Borderlands The Pre-Sequel.url</name>
+      <exists>-1</exists>
+      <size>222</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>Borderlands The Pre-Sequel.url</filename>
+    </datafile>
+  </datafiles>
   <NewExtensions/>
   <sounds name="sound">
+    <sound>sound\sound2_ARACHNOLOVANIA</sound>
     <sound>sound\sound0</sound>
+    <sound>sound\player_dash</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="particles">
@@ -16,16 +37,25 @@
       <sprites name="player">
         <sprite>sprites\spr_player_shadow</sprite>
         <sprite>sprites\spr_player_right</sprite>
-        <sprite>sprites\spr_cursor</sprite>
         <sprite>sprites\spr_hero</sprite>
         <sprite>sprites\spr_player_down</sprite>
         <sprite>sprites\spr_player_up</sprite>
         <sprite>sprites\spr_player_left</sprite>
         <sprites name="miscelenous">
           <sprite>sprites\spr_health</sprite>
+          <sprite>sprites\spr_cursor</sprite>
+        </sprites>
+        <sprites name="attack">
+          <sprite>sprites\spr_player_attack_down</sprite>
+          <sprite>sprites\spr_player_attack_up</sprite>
+          <sprite>sprites\spr_player_attack_right</sprite>
+          <sprite>sprites\spr_player_attack_left</sprite>
         </sprites>
       </sprites>
-      <sprite>sprites\spr_drone</sprite>
+      <sprites name="enemys">
+        <sprite>sprites\spr_drone</sprite>
+        <sprite>sprites\spr_seekers</sprite>
+      </sprites>
       <sprites name="blocks">
         <sprite>sprites\spr_space_brick</sprite>
       </sprites>
@@ -46,13 +76,16 @@
     <script>scripts\scr_get_input.gml</script>
     <script>scripts\scr_frozen_state.gml</script>
   </scripts>
-  <fonts name="fonts"/>
   <objects name="objects">
     <objects name="enemy stuff">
       <object>objects\obj_basic_enemy</object>
+      <object>objects\obj_enemy_seeker</object>
     </objects>
-    <object>objects\obj_view</object>
-    <object>objects\obj_health</object>
+    <objects name="special">
+      <object>objects\obj_view</object>
+      <object>objects\obj_health</object>
+      <object>objects\obj_lifeform_parent</object>
+    </objects>
     <objects name="blocks">
       <object>objects\obj_wall</object>
       <object>objects\object6</object>
