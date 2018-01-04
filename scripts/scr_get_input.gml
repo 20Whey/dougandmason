@@ -9,28 +9,6 @@ attack_key = mouse_check_button_pressed(mb_left)
 xaxis = (right_key - left_key)
 yaxis  = (down_key - up_key)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Check for gamepad input
 if (gamepad_is_connected(0)) {
     gamepad_set_axis_deadzone(0, .35);

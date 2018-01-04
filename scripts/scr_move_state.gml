@@ -47,5 +47,8 @@ sprite_index = spr_player_right
 sprite_index = spr_player_left;
 }
 
+if  (dash_key) {
+alarm [2] = room_speed/7
+}
 
 

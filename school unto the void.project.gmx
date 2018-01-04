@@ -60,6 +60,7 @@
         <sprite>sprites\spr_space_brick</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\damage_sprite</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -86,6 +87,7 @@
       <object>objects\obj_view</object>
       <object>objects\obj_health</object>
       <object>objects\obj_lifeform_parent</object>
+      <object>objects\obj_damage</object>
     </objects>
     <objects name="blocks">
       <object>objects\obj_wall</object>
