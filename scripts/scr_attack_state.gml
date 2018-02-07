@@ -18,3 +18,8 @@ switch (sprite_index) {
         sprite_index = spr_player_attack_left;
         break;
 }
+
+
+if (image_index >= 3) {
+instance_create(x, y, obj_damage)
+}

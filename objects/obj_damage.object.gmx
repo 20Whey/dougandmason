@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///damage all lifeforms 
+other. hp -=1;
 </string>
           </argument>
         </arguments>
