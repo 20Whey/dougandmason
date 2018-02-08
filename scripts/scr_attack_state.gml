@@ -20,6 +20,8 @@ switch (sprite_index) {
 }
 
 
-if (image_index >= 3) {
-instance_create(x, y, obj_damage)
+if (image_index >= 3 && attacked == false) {
+    var damage = instance_create(x, y, obj_damage);
+    damage.creator = id;
+    attacked = true;
 }

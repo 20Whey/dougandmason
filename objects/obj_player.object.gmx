@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///set a fixed rotation 
 event_inherited();
+hp = 20;
 spd = 2; 
 hspd = 0;
 vspd = 0;
@@ -34,6 +35,7 @@ xaxis = 0;
 yaxis = 0;
 len = 0;
 dir = 0;
+attacked = false;
 image_speed = 0;
 scr_get_input();
 state = scr_move_state;
@@ -109,9 +111,9 @@ state = scr_move_state;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///move the player in the step event    
+            <string>/// Move the player in the step event    
 event_inherited();
-script_execute(state)
+script_execute(state);
 </string>
           </argument>
         </arguments>
@@ -137,6 +139,7 @@ script_execute(state)
             <string>/// Change back to move state
 if (state == scr_attack_state) {
     state = scr_move_state;
+    attacked = false;
 }
 </string>
           </argument>
