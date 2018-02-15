@@ -1,4 +1,4 @@
-///scr_move_state
+    ///scr_move_state
 scr_get_input();
 
 if (dash_key) {
@@ -15,10 +15,11 @@ if (attack_key) {
 }
 
 //get the length
-if (xaxis == 0 and yaxis = 0){
+if (xaxis == 0 and yaxis == 0){
 len = 0
 } else    {
    len = spd
+   scr_get_face();
 }
 
 //get the hspd and vspd
@@ -34,21 +35,21 @@ phy_position_y += vspd;
 image_speed = sign(len)* .2;
 if (len == 0) image_index = 0;
 
-//vertical sprites
-if  (vspd > 0) {
-sprite_index = spr_player_down;
-} else if (vspd < 0) {
-sprite_index = spr_player_up;
-}
-//move horisontally 
-if (hspd > 0) {
-sprite_index = spr_player_right
-} else if (hspd < 0) {
-sprite_index = spr_player_left;
-}
 
-if  (dash_key) {
-alarm [2] = room_speed/7
+switch (face)   {
+    case RIGHT:
+        sprite_index = spr_player_right;
+        break;
+    
+    case UP:
+        sprite_index = spr_player_up;
+        break;
+    
+    case LEFT:
+        sprite_index = spr_player_left;
+        break;
+    
+    case DOWN:
+        sprite_index = spr_player_down;
+        break;
 }
-
-
