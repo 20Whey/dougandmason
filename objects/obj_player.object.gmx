@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///set a fixed rotation 
 event_inherited();
-hp = 20;
+hp = 5;
 spd = 2; 
 hspd = 0;
 vspd = 0;
