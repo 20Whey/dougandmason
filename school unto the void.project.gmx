@@ -55,6 +55,7 @@
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\bg_grass</background>
+    <background>background\bg_saand</background>
     <background>background\bg_sando</background>
   </backgrounds>
   <paths name="paths">
