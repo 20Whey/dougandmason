@@ -18,11 +18,7 @@
     <sprites name="actors">
       <sprites name="player">
         <sprite>sprites\spr_player_shadow</sprite>
-        <sprite>sprites\spr_player_right</sprite>
         <sprite>sprites\spr_hero</sprite>
-        <sprite>sprites\spr_player_down</sprite>
-        <sprite>sprites\spr_player_up</sprite>
-        <sprite>sprites\spr_player_left</sprite>
         <sprites name="miscelenous">
           <sprite>sprites\spr_health</sprite>
           <sprite>sprites\spr_cursor</sprite>
@@ -35,6 +31,10 @@
           <sprite>sprites\spr_player_attack_left</sprite>
         </sprites>
         <sprite>sprites\spr_door</sprite>
+        <sprite>sprites\spr_player_left</sprite>
+        <sprite>sprites\spr_player_down</sprite>
+        <sprite>sprites\spr_player_right</sprite>
+        <sprite>sprites\spr_player_up</sprite>
       </sprites>
       <sprites name="enemys">
         <sprite>sprites\spr_drone</sprite>
@@ -49,12 +49,20 @@
       <sprite>sprites\spr_vikurvboltr</sprite>
     </sprites>
     <sprite>sprites\spr_expr</sprite>
+    <sprite>sprites\spr_loot_health</sprite>
     <sprite>sprites\sprite22</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_wall_real_</sprite>
     <sprite>sprites\spr_grassy</sprite>
     <sprite>sprites\spr_player_lazer</sprite>
     <sprite>sprites\spr_gate</sprite>
+    <sprite>sprites\spr_sign</sprite>
+    <sprite>sprites\sprite33</sprite>
+    <sprite>sprites\sprite35_adsfs</sprite>
+    <sprite>sprites\spr_door_right</sprite>
+    <sprite>sprites\spr_door_left</sprite>
+    <sprite>sprites\spr_xp</sprite>
+    <sprite>sprites\spr_dialog</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -64,6 +72,7 @@
   </backgrounds>
   <paths name="paths">
     <path>paths\path_mini_boss</path>
+    <path>paths\path1</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\scr_health_2_.gml</script>
@@ -76,6 +85,7 @@
     <scripts name="Helper scripts">
       <script>scripts\scr_get_face.gml</script>
       <script>scripts\scr_get_input.gml</script>
+      <script>scripts\scr_chance.gml</script>
     </scripts>
     <script>scripts\scr_health_1_.gml</script>
     <scripts name="enemies n stuff">
@@ -96,7 +106,6 @@
     </objects>
     <objects name="special">
       <object>objects\obj_view</object>
-      <object>objects\obj_health</object>
       <object>objects\obj_lifeform_parent</object>
       <object>objects\obj_damage</object>
     </objects>
@@ -112,8 +121,13 @@
       <object>objects\obj_player_stats</object>
     </objects>
     <object>objects\obj_expr</object>
-    <object>objects\obj_door</object>
+    <object>objects\obj_health</object>
+    <object>objects\obj_door_left</object>
+    <object>objects\obj_door_right</object>
     <object>objects\obj_tree</object>
+    <object>objects\obj_speaker</object>
+    <object>objects\obj_dialog</object>
+    <object>objects\obj_sign</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
