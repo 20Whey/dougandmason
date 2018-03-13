@@ -7,7 +7,7 @@
   <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <colour>12632256</colour>
   <showcolour>0</showcolour>
   <code></code>
@@ -99,8 +99,6 @@
     <instance objName="obj_wall" x="608" y="320" name="inst_FF8060CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="608" y="320" name="inst_BEC866C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="608" y="288" name="inst_A61E732A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="608" y="256" name="inst_D654CE31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="608" y="224" name="inst_880FAAEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="608" y="192" name="inst_0507641F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="320" y="32" name="inst_CBE953BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="352" y="32" name="inst_FEB4BF84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -147,6 +145,9 @@
     <instance objName="obj_tree" x="256" y="192" name="inst_103B0504" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_right" x="96" y="32" name="inst_E2BC0006" locked="0" code="new_room = room0;&#xA;new_x = 544;&#xA;new_y = 288;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_door_left" x="64" y="32" name="inst_94C07D23" locked="0" code="new_room = room0;&#xA;new_x = 544;&#xA;new_y = 288;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sign_2" x="544" y="256" name="inst_18E7DAFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_left" x="608" y="256" name="inst_874DD034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_door_left" x="607" y="224" name="inst_CDACCD80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
