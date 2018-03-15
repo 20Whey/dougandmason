@@ -58,7 +58,7 @@
     <sprite>sprites\spr_player_lazer</sprite>
     <sprite>sprites\spr_gate</sprite>
     <sprite>sprites\spr_sign</sprite>
-    <sprite>sprites\sprite48</sprite>
+    <sprite>sprites\spr_backstory</sprite>
     <sprite>sprites\spr_sign_2</sprite>
     <sprite>sprites\sprite33</sprite>
     <sprite>sprites\sprite35_adsfs</sprite>
@@ -67,6 +67,10 @@
     <sprite>sprites\spr_xp</sprite>
     <sprite>sprites\spr_dialog</sprite>
     <sprite>sprites\spr_big_dialog</sprite>
+    <sprite>sprites\sprite43_bricksErs</sprite>
+    <sprite>sprites\spr_hobot</sprite>
+    <sprite>sprites\spr_mouse</sprite>
+    <sprite>sprites\spr_hive</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -132,22 +136,24 @@
     <object>objects\obj_door_left</object>
     <object>objects\obj_door_right</object>
     <object>objects\obj_tree</object>
+    <object>objects\obj_hive</object>
     <objects name="dialog">
       <object>objects\obj_speaker_2</object>
       <object>objects\obj_robot_speaker</object>
       <object>objects\obj_sign</object>
-      <object>objects\obj_robo_tut</object>
+      <object>objects\obj_robo_tuto</object>
       <object>objects\obj_sign_2</object>
       <object>objects\obj_speaker</object>
       <object>objects\obj_annoying_robot_speaker</object>
       <object>objects\obj_dialog</object>
+      <object>objects\obj_backstory_sign</object>
     </objects>
     <object>objects\obj_input</object>
     <object>objects\obj_pause_menu</object>
+    <object>objects\obj_backstory_speaker</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
-    <room>rooms\room2</room>
     <room>rooms\room1</room>
     <room>rooms\rm_pause</room>
     <room>rooms\room4</room>

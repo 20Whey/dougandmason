@@ -86,7 +86,6 @@
     <instance objName="obj_wall" x="32" y="64" name="inst_1DEF16C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="160" y="32" name="inst_0E3B29B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="192" y="32" name="inst_2263237C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_seeker" x="96" y="128" name="inst_9471306F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_seeker" x="544" y="224" name="inst_637C755F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_seeker" x="352" y="256" name="inst_12DB4EFD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="448" y="320" name="inst_7601774B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -143,11 +142,17 @@
     <instance objName="obj_enemy_seeker" x="448" y="160" name="inst_2B1460FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_seeker" x="544" y="64" name="inst_F0B7F677" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="256" y="192" name="inst_103B0504" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_right" x="96" y="32" name="inst_E2BC0006" locked="0" code="new_room = room0;&#xA;new_x = 544;&#xA;new_y = 288;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_left" x="64" y="32" name="inst_94C07D23" locked="0" code="new_room = room0;&#xA;new_x = 544;&#xA;new_y = 288;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_door_left" x="64" y="32" name="inst_94C07D23" locked="0" code="new_room = room0;&#xA;new_x = 544;&#xA;new_y = 288;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign_2" x="544" y="256" name="inst_18E7DAFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_door_left" x="608" y="256" name="inst_874DD034" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
-    <instance objName="obj_door_left" x="607" y="224" name="inst_CDACCD80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="-90"/>
+    <instance objName="obj_door_left" x="608" y="256" name="inst_874DD034" locked="0" code="new_room = room4;&#xA;new_x = 64&#xA;new_y = 96" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_door_left" x="608" y="224" name="inst_76302E7D" locked="0" code="new_room = room4;&#xA;new_x = 64&#xA;new_y = 96" scaleX="1" scaleY="1" colour="4294967295" rotation="-91"/>
+    <instance objName="obj_door_right" x="96" y="32" name="inst_D3A97968" locked="0" code="new_room = room0;&#xA;new_x = 544;&#xA;new_y = 288;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_seeker" x="544" y="128" name="inst_4C97DF8A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree" x="224" y="224" name="inst_14EC4948" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree" x="224" y="160" name="inst_2B5AA125" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree" x="288" y="64" name="inst_46CBB34F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree" x="384" y="160" name="inst_013EAA19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree" x="320" y="288" name="inst_52712058" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

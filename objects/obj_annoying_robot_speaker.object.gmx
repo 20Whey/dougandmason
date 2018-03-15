@@ -28,6 +28,7 @@
             <string>/// Initialise the speaker
 dialog = noone;
 dialog_page = 0;
+hp = 1000
 xoffset = -32
 yoffset = -40
 text[0] = "Oh... you have forgotten how to move?"

@@ -3,7 +3,7 @@ right_key = keyboard_check(ord('D'));
 left_key = keyboard_check(ord('A'));
 up_key = keyboard_check(ord('W'));
 down_key = keyboard_check(ord('S'));
-dash_key = mouse_check_button_pressed(mb_left)
+dash_key = mouse_check_button_pressed(mb_right);
 attack_key = mouse_check_button_pressed(mb_left);
 pause_key = keyboard_check_pressed(vk_escape)
 //get the axis
